@@ -1,0 +1,83 @@
+/**
+ * @name Red Discord Modern
+ * @description Modern ve sofistike kırmızı Discord teması
+ * @author BartuAbiHD
+ * @version 2.0
+ * @invite nz87hXyvcy
+ * @website https://github.com/BartuAbiHD/discord-themes/red-discord-modern
+ * @source https://github.com/BartuAbiHD/discord-themes/red-discord-modern/blob/master/midnight.theme.css
+*/
+
+/* ÖNEMLI: Temanın düzgün çalışması için Discord'un koyu mod ayarının açık olduğundan emin olun! */
+
+@import url('https://bartuabihd.github.io/discord-themes/red-discord-modern/red-discord-modern.css');
+
+:root {
+    /* Font - Modern ve okunaklı */
+    --font: 'Outfit';
+
+    /* Sol üst köşe metni */
+    --corner-text: 'RED DISCORD MODERN';
+
+    /* Durum göstergeleri - Canlı renkler */
+    --online-indicator: #ff4757;    /* Parlak kırmızı */
+    --dnd-indicator: #ff6b81;       /* Yumuşak pembe */
+    --idle-indicator: #ffa502;      /* Turuncu */
+    --streaming-indicator: #ff4d94;  /* Magenta */
+
+    /* Ana tema renkleri - Zengin kırmızı tonları */
+    --accent-1: hsl(348, 85%, 61%);  /* Ana vurgu */
+    --accent-2: hsl(348, 85%, 55%);  /* Aktif elementler */
+    --accent-3: hsl(348, 85%, 48%);  /* Butonlar */
+    --accent-4: hsl(348, 85%, 42%);  /* Hover durumları */
+    --accent-5: hsl(348, 85%, 35%);  /* Tıklama durumları */
+    --mention: hsla(348, 85%, 50%, 0.12);
+    --mention-hover: hsla(348, 85%, 50%, 0.08);
+
+    /* Metin renkleri - Kontrast ve okunabilirlik odaklı */
+    --text-0: #ffffff;
+    --text-1: hsl(348, 10%, 95%);
+    --text-2: hsl(348, 10%, 85%);
+    --text-3: hsl(348, 10%, 75%);
+    --text-4: hsl(348, 10%, 60%);
+    --text-5: hsl(348, 10%, 45%);
+
+    /* Arka plan renkleri - Sofistike koyu tonlar */
+    --bg-1: hsl(348, 20%, 18%);
+    --bg-2: hsl(348, 20%, 15%);
+    --bg-3: hsl(348, 20%, 12%);
+    --bg-4: hsl(348, 20%, 9%);
+    --hover: hsla(348, 30%, 50%, 0.06);
+    --active: hsla(348, 30%, 50%, 0.12);
+    --message-hover: hsla(348, 30%, 98%, 0.03);
+
+    /* Boşluklar - Ferah layout */
+    --spacing: 16px;
+
+    /* Animasyonlar - Pürüzsüz geçişler */
+    --list-item-transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    --unread-bar-transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    --moon-spin-transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    --icon-spin-transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Köşe yuvarlaklıkları - Modern görünüm */
+    --roundness-xl: 26px;
+    --roundness-l: 22px;
+    --roundness-m: 18px;
+    --roundness-s: 14px;
+    --roundness-xs: 12px;
+    --roundness-xxs: 8px;
+
+    /* Özel simge ayarları */
+    /*--discord-icon: none;
+    --moon-icon: block;
+    --moon-icon-url: url('https://api.iconify.design/ph:heart-straight-fill.svg');
+    --moon-icon-size: 22px;*/
+
+    /* Pencere kontrolleri */
+    --windows-nav: none;
+    --custom-nav: block;
+
+    /* Mesaj ayırıcı kalınlığı */
+    --divider-thickness: 2px;
+}
