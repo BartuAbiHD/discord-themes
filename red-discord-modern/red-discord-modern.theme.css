@@ -9,7 +9,7 @@
 
 /* ÖNEMLI: Temanın düzgün çalışması için Discord'un koyu mod ayarının açık olduğundan emin olun! */
 
-@import url('https://bartuabihd.github.io/discord-themes/red-discord-modern/red-discord-modern.css');
+@import url('@import url('https://raw.githubusercontent.com/BartuAbiHD/discord-themes/refs/heads/main/red-discord-modern/red-discord-modern.css');');
 
 :root {
     /* Font - Modern ve okunaklı */
